@@ -1,0 +1,32 @@
+# Секреты и локальная конфигурация
+.env
+.env.*
+!.env.example
+
+# Локальные базы данных SQLite
+data/
+*.sqlite
+*.sqlite3
+*.sqlite3-journal
+*.sqlite3-wal
+*.sqlite3-shm
+*.db
+
+# Окружение и кеши Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.mypy_cache/
+.ruff_cache/
+
+# Тестовые артефакты
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE / ОС
+.idea/
+.vscode/
+.DS_Store

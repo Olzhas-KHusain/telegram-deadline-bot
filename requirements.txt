@@ -1,0 +1,10 @@
+# Runtime
+aiogram==3.31.0
+aiosqlite==0.22.1
+python-dotenv==1.2.4
+# Нужен zoneinfo на Windows, где нет системной базы часовых поясов (Asia/Almaty)
+tzdata==2026.5
+
+# Tests
+pytest==9.1.1
+pytest-asyncio==1.4.0
